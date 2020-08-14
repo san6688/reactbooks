@@ -1,0 +1,17 @@
+@import "AppTheme";
+
+
+span.pageNumber, span.reverse, span.forwardPage{
+  padding: 10px !important;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.currentPage span.pageNumber {
+  padding: 10px !important;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: $custom-primary-color;
+  color: white;
+  border-radius: 5px;
+}
